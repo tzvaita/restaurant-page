@@ -8,6 +8,6 @@ const menuListing = () => {
   menuContainer.appendChild(image);
 
   return menuContainer;
-}
+};
 
 export default menuListing;

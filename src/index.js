@@ -8,7 +8,7 @@ const closeModels = () => {
   document.getElementById('homecont').style.display = 'grid';
   document.getElementById('contactcont').style.display = 'none';
   document.getElementById('menucont').style.display = 'none';
-}
+};
 
 const showHome = () => {
   document.getElementById('homecont').style.display = 'grid';
@@ -17,7 +17,7 @@ const showHome = () => {
   document.getElementById('home').style.backgroundColor = 'red';
   document.getElementById('menu').style.backgroundColor = 'transparent';
   document.getElementById('contact').style.backgroundColor = 'transparent';
-}
+};
 
 const showMenu = () => {
   document.getElementById('homecont').style.display = 'none';
@@ -26,7 +26,7 @@ const showMenu = () => {
   document.getElementById('menu').style.backgroundColor = 'yellow';
   document.getElementById('home').style.backgroundColor = 'transparent';
   document.getElementById('contact').style.backgroundColor = 'transparent';
-}
+};
 
 const showContact = () => {
   document.getElementById('homecont').style.display = 'none';
@@ -35,7 +35,7 @@ const showContact = () => {
   document.getElementById('contact').style.backgroundColor = 'antiquewhite';
   document.getElementById('home').style.backgroundColor = 'transparent';
   document.getElementById('menu').style.backgroundColor = 'transparent';
-}
+};
 
 const display = () => {
   const content = document.getElementById('content');
@@ -47,7 +47,7 @@ const display = () => {
   content.querySelector('#home').addEventListener('click', showHome);
   content.querySelector('#menu').addEventListener('click', showMenu);
   content.querySelector('#contact').addEventListener('click', showContact);
-}
+};
 
 display();
 closeModels();
