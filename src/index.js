@@ -14,18 +14,27 @@ const showHome = () => {
   document.getElementById('homecont').style.display = 'grid';
   document.getElementById('contactcont').style.display = 'none';
   document.getElementById('menucont').style.display = 'none';
+  document.getElementById('home').style.backgroundColor = 'red';
+  document.getElementById('menu').style.backgroundColor = 'transparent';
+  document.getElementById('contact').style.backgroundColor = 'transparent';
 }
 
 const showMenu = () => {
   document.getElementById('homecont').style.display = 'none';
   document.getElementById('contactcont').style.display = 'none';
   document.getElementById('menucont').style.display = 'grid';
+  document.getElementById('menu').style.backgroundColor = 'yellow';
+  document.getElementById('home').style.backgroundColor = 'transparent';
+  document.getElementById('contact').style.backgroundColor = 'transparent';
 }
 
 const showContact = () => {
   document.getElementById('homecont').style.display = 'none';
   document.getElementById('contactcont').style.display = 'grid';
   document.getElementById('menucont').style.display = 'none';
+  document.getElementById('contact').style.backgroundColor = 'antiquewhite';
+  document.getElementById('home').style.backgroundColor = 'transparent';
+  document.getElementById('menu').style.backgroundColor = 'transparent';
 }
 
 const display = () => {
