@@ -2,6 +2,7 @@ import header from './header';
 import menuListing from './menu';
 import contactinfo from './contact';
 import landingpage from './home';
+import './style.css';
 
 const closeModels = () => {
   document.getElementById('homecont').style.display = 'grid';
