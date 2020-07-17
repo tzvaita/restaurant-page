@@ -1,4 +1,4 @@
-import Img from './menu.jpg';
+import Img from './images/menu.jpg';
 
 const menuListing = () => {
   const menuContainer = document.createElement('div');

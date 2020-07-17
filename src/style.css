@@ -31,5 +31,8 @@ a {
 
 #menucont img {
   width: 100%;
-  
+}
+
+#contactcont img {
+  margin: 0 auto;
 }

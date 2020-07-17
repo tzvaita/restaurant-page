@@ -1,4 +1,4 @@
-import Pic from './rest.png';
+import Pic from './images/rest.png';
 
 const landingpage = () => {
   const homecontainer = document.createElement('div');
