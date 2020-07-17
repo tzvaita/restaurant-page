@@ -4,7 +4,8 @@ const contactinfo = () => {
   const pageext = document.createElement('p');
   pageext.innerHTML = "Give us a call for deliveries and enquiries";
   contactpage.appendChild(pageext);
-  document.body.appendChild(contactpage);
+
+  return contactpage;
 }
 
 export default contactinfo;

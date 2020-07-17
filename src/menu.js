@@ -4,7 +4,8 @@ const menuListing = () => {
   const pageText = document.createElement('p');
   pageText.innerHTML = "We have a plethora of dishes from where you can select different courses.";
   menuContainer.appendChild(pageText);
-  document.body.appendChild(menuContainer);
+
+  return menuContainer;
 }
 
 export default menuListing;

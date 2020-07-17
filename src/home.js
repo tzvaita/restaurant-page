@@ -4,7 +4,8 @@ const landingpage = () => {
   const pageText = document.createElement('p');
   pageText.innerHTML = "Welcome welcome.";
   homecontainer.appendChild(pageText);
-  document.body.appendChild(homecontainer);
+
+  return homecontainer;
 }
 
 export default landingpage;
